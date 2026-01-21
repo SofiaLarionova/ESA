@@ -1,8 +1,6 @@
 # ESA
 
-## Бурлаков Алексей группа 6131-010402D
-
-## Казаков Николай группа 6131-010402D
+## 6231-010402D_Ларионова Софья
 
 ### [1. Application with common JavaEE architecture](https://github.com/NikolaiKazakov/ESA/tree/master/lab-1)
 
