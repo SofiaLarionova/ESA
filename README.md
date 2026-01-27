@@ -1,7 +1,6 @@
 # Лабораторная работа 1
 # Application with common JavaEE architecture
-## Бурлаков Алексей группа 6131-010402D
-## Казаков Николай группа 6131-010402D
+## Ларионова Софья группа 6231-010402D
 
 ### General task
 You are to develop an application using common JavaEE architecture and technologies. It should have three layers (data, logic, view) and provide means to work with a database.
