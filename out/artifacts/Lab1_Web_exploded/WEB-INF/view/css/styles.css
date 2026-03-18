@@ -1,0 +1,136 @@
+/* Общие стили для всей страницы */
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f9; /* Светлый фон */
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Темный текст */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50; /* Темно-синий заголовок */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 40px;
+}
+
+/* Стили формы */
+form {
+    max-width: 500px;
+    margin: 0 auto 30px auto; /* Центрирование формы */
+    background-color: #ffffff; /* Белый фон */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 1em;
+    color: #2c3e50;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+form input[type="number"] {
+    -moz-appearance: textfield; /* Убираем стрелки в числовом поле */
+}
+
+form input:focus {
+    border-color: #007BFF; /* Цвет выделения */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+form button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Стили таблицы */
+.books-table {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Белый фон */
+}
+
+.books-table th, .books-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 1em;
+}
+
+.books-table th {
+    background-color: #007BFF; /* Синий фон */
+    color: white; /* Белый текст */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.books-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Серый фон для четных строк */
+}
+
+.books-table tr:hover {
+    background-color: #f1f1f1; /* Светло-серый фон при наведении */
+}
+
+.books-table td a {
+    color: #007BFF; /* Цвет ссылки */
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.books-table td a:hover {
+    text-decoration: underline;
+}
+
+/* Кнопка очистки списка */
+form[action="books"] button {
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    background-color: #dc3545; /* Красный фон */
+}
+
+form[action="books"] button:hover {
+    background-color: #a71d2a; /* Темно-красный при наведении */
+}
